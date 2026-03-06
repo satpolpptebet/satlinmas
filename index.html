@@ -1,45 +1,33 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>DATA SATLINMAS TEBET</title>
-  <link rel="icon" href=linmas.png/>
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      background-color: #eee;
-      overflow: hidden; /* Mencegah scroll ganda */
-    }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DATA SATLINMAS TEBET</title>
 
-    .iframe-container {
-      width: 100%;
-      height: 100dvh; /* Menggunakan dvh agar pas di mobile browser */
-      overflow: hidden;
-    }
+<style>
+html,body{
+margin:0;
+padding:0;
+height:100%;
+width:100%;
+overflow:hidden;
+background:#eee;
+}
 
-    iframe {
-      display: block;
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-  </style>
+iframe{
+width:100%;
+height:100vh;
+border:none;
+}
+</style>
+
 </head>
 <body>
-  <div class="iframe-container">
-    <iframe
-      id="app"
-      src="https://script.google.com/macros/s/AKfycbw-bEPt3Mr4DkRRQU4RpWocESOA-J5aIwaz0XgOec-OFajUa_y80p45gi9UlstFbHMr/exec"
-      scrolling="yes"
-      allowfullscreen="true"
-      webkitallowfullscreen="true"
-      mozallowfullscreen="true"
-      allow="fullscreen; camera; microphone; display-capture; geolocation;">
-    </iframe>
-  </div>
+
+<iframe 
+src="https://script.google.com/macros/s/AKfycbw-bEPt3Mr4DkRRQU4RpWocESOA-J5aIwaz0XgOec-OFajUa_y80p45gi9UlstFbHMr/exec?embedded=true"
+allow="fullscreen">
+</iframe>
 </body>
 </html>
